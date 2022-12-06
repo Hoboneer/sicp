@@ -1,0 +1,48 @@
+* Links
+
+- [[https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/][MIT OpenCourseWare Webpage for CS 6.001 SICP]]
+
+* Course Aim
+
+Learning how to control complexity of (large) software systems.
+
+NOT algorithm analysis or the mathematical foundations of computer
+science.
+
+* Why I want to learn from this course
+
+I want to learn a Lisp---especially one as simple and elegant as
+Scheme.
+
+I'm also interested to learn about garbage collection and compilers.
+We covered compilers briefly in COMPSCI 210, but it was more
+theoretical (of course) and I remember there being more of an emphasis
+on parsing than on other parts of compilers.
+
+After looking at the table of contents, it also covers concurrency,
+streams (related to laziness?), and register machines.  They look
+interesting too.
+
+HOWEVER, I'll skip logic programming for now.  It always seemed
+strange to me, based on how little there is on the topic online.
+
+* Acknowledgement section notes
+
+#+begin_quote
+   Joel Moses taught us about structuring large systems.  His
+experience with the Macsyma system for symbolic computation provided
+the insight that one should *avoid complexities of control* and
+*concentrate on organizing the data to reflect the real structure of
+the world being modeled.*
+#+end_quote
+
+This seems similar to a principle mentioned in Eric Raymond's /The Art
+of Unix Programming/: its corollary being to prefer more complex data
+structures over more complex code since CS is more about data
+structures than algorithms.
+
+* Chapter 1: Building Abstractions with Procedures
+* Chapter 2: Building Abstractions with Data
+* Chapter 3: Modularity, Objects, and State
+* Chapter 4: Metalinguistic Abstraction
+* Chapter 5: Computing with Register Machines
